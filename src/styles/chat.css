@@ -1,0 +1,56 @@
+.section-3{
+    padding-top: 2rem;
+}
+.chat{
+    background-color: rgb(227, 227, 227);
+    padding: 2rem;
+    margin: 0 1.5rem;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.messageGirl{
+    display: flex;
+}
+.messageBoy{
+    display: flex;
+    justify-content: end;
+}
+.pink{
+    background-color: rgb(255, 99, 125);
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+}
+.blue{
+    background-color: rgb(66, 145, 255);
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+}
+.form{
+    margin: 0 1.5rem;
+}
+.cositas{
+    width: 100%;
+    display: flex;
+}
+.campo{
+    width: 100%;
+    padding: 1.5rem;
+    border: 0;
+}
+.boton{
+    padding: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(66, 145, 255);
+    border: 0;
+    color: white;
+    transition:  ease-out 150ms;
+    cursor: pointer;
+}
+.boton:hover{
+    transition:  ease-in 150ms;
+    background-color: rgb(25, 74, 143);
+}

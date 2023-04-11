@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+}
+.slider{
+    display: flex;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.slider img{
+    transition: .300ms;
+    filter: saturate(10%);
+    transition: ease-out 300ms;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+@media (min-width: 1024){
+    .slider img{
+        width: 20%;
+    }
+}
+.slider img:hover{
+    filter: saturate(100%);
+    transition: ease-in 300ms;
+    cursor: pointer;
+}

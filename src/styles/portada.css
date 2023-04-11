@@ -1,0 +1,61 @@
+.section-1{
+    background-image: url("../img/cloud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #ffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+.title h1{
+    font-size: 500%;
+    margin: 0;
+}
+@media (min-width: 768px){
+    .title h1{
+        padding-top: 10%;
+        font-size: 700%;
+    }
+    .title h3{
+        font-size: 150%;
+        margin: 0;
+    }
+}
+.title h3{
+    font-size: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+@media (max-width: 768px){
+    .container{
+        display: block;
+        gap: 0;
+    }
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    text-align: center;
+    gap: 2rem;
+    font-size: 120%;
+    height: 20vh;
+}
+@media (max-width: 375px){
+    .cards{
+        display: block;
+        padding-right: 2rem;
+    }
+}
+.card{
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.361);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.371);
+}
+@media (max-width: 768px){
+    .card{
+        font-size: 60%;
+    }
+}
